@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url('img/agenda-1355316_1920.jpg');
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    max-height: 35vh;
+    color: white;
+    background-color: #49C5B6;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 3.5em;
+    padding: 1.2%;
+    background-color: rgba(131, 76, 54, 0.6);
+    letter-spacing: 0.12em;
+}
+
+h2 {
+    padding: 2% 0;
+    font-size: 2em;
+    background-color: rgba(131, 76, 54, 0.6);
+    letter-spacing: .2em;
+}
+
+main {
+    position: relative;
+    min-height: 65vh;
+    background-color: #E4E3DD;
+    padding-top: 2%;
+    background-color: white;
+}
+
+form {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+main input {
+    padding: 5px;
+    width: 25%;
+}
+
+main button {
+    width: 15%;
+    padding: 5px;
+    margin-left: 3%;
+    background-color: #D97941;
+    color: white;
+    border: 1 px solid rgb(199, 110, 58);
+    font-size: 1.1em;
+}
+
+section.tasks {
+    /* background-color: rgb(236, 224, 208); */
+    color: #386966;
+    font-size: 1.1em;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.tasks p {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.tasks p span {
+    font-size: 1.25em;
+    padding-bottom: 1%;
+}
+
+
+.tasks li {
+    font-size: 1.1em;
+    list-style: none;
+
+}
+
+.tasks li i {
+    padding-right: 5%;
+    color: #386966;
+}
+
+.tasks li i.fa-check {
+    padding-left: 5%;
+}
+
+.tasks li i.fa-trash-alt {
+    padding-left: 5%;
+}
+
+.tasks li i.fa-trash-alt:hover {
+    color: #D97941
+}
+
+.tasks li i.fa-check:hover {
+    color: #D97941
+}
+
+section.search {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #386966;
+}
+
+input.search {
+    position: absolute;
+    bottom: 21%;
+    /* left: 40%;
+    right: 40%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+}
+
+i.fa-search {
+    position: absolute;
+    bottom: 30%;
+    left: 65%;
+    color: white;
+}
